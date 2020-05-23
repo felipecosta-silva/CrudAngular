@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 20px 15px 0 0;
+}
+
+.mat-raised-button{
+  background-color: #00ff3866;
+}
+
+.mat-raised-button:nth-child(2n+2) {
+  background-color: #C2185B;
+}
