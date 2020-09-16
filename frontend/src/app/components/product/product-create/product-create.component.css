@@ -1,6 +1,10 @@
 form {
   display: flex;
-  flex-direction: column;
+}
+
+mat-form-field {
+  margin: 2rem;
+  width: 50%;
 }
 
 button {
@@ -9,8 +13,18 @@ button {
 
 .mat-raised-button{
   background-color: #00ff3866;
+  transition: all .3s;
+}
+
+.mat-raised-button:hover:nth-child(1n+2){
+  background-color: #10992e66;
+  transform: translateY(-0.10em);
 }
 
 .mat-raised-button:nth-child(2n+2) {
   background-color: #C2185B;
+}
+
+.mat-raised-button:nth-child(2n+2):hover{
+  background-color: #70173b;
 }

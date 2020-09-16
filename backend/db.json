@@ -18,12 +18,12 @@
     {
       "name": "Geladeira",
       "price": 1900,
-      "id": 5
+      "id": 4
     },
     {
-      "name": "Insert Form",
-      "price": "9.99",
-      "id": 6
+      "name": "Caneta Vermelha",
+      "price": 2.5,
+      "id": 5
     }
   ]
 }
