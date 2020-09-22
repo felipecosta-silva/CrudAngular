@@ -1,0 +1,25 @@
+form {
+  display: flex;
+}
+
+mat-form-field {
+  margin: 2rem;
+  width: 50%;
+}
+
+button {
+  margin: 20px 15px 0 0;
+}
+
+.mat-raised-button:hover:nth-child(1n+2){
+  background-color: #b63026;
+  transform: translateY(-0.10em);
+}
+
+.mat-raised-button:nth-child(2n+2) {
+  background-color: #d9cd26;
+}
+
+.mat-raised-button:nth-child(2n+2):hover{
+  background-color: #b6ab16;
+} 
