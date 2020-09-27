@@ -21,9 +21,14 @@
       "id": 4
     },
     {
-      "name": "Caneta Vermelha",
-      "price": 2.5,
+      "name": "Caneta Roxa",
+      "price": "150",
       "id": 5
+    },
+    {
+      "name": "Carregador Iphone ",
+      "price": "100",
+      "id": 6
     }
   ]
 }

@@ -13,7 +13,7 @@ export class ProductDeleteComponent implements OnInit {
   product: Product;
 
   constructor(private ProductService: ProductService, private router: Router, private route: ActivatedRoute) {
-    const id = this.route.snapshot.paramMap.get('id');
+    const id = +this.route.snapshot.paramMap.get('id');
     this.ProductService.readById(id).subscribe(product => {
       this.product = product
     })
